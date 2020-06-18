@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFC31;
+	font-family: "Calibri", sans-serif;
+	padding-top: 3%;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 2%;
+	text-transform: uppercase;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 80%;
+	background-color: #337CA0;
+}
+
+table tr:first-child {
+	background-color: #337CA0;
+	color: #3EC300;
+}
+
+table th {
+	font-weight: bold;
+}
+
+table td {
+	text-align: left;
+}
+
+table td:nth-child(3), table td:nth-child(4) {
+	text-align: center;
+}
+
+table td:nth-child(5) div {
+	display: flex;
+	justify-content: space-around;
+}
+
+table th, table td {
+	padding: 7px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 40%;
+}
+
+form label {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	margin-bottom: 2%;
+	text-align: left;
+}
+
+form input, form select {
+	border-radius: 3px;
+	margin-top: 1%;
+	padding: 7px;
+}
+
+input[type=submit] {
+	background-color: #337CA0;
+	border: 1px solid #24292e;
+	border-radius: 7px;
+	color: #3EC300;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 1%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	width: 30%;
+}
+
+.header-button {
+	background-color: #337CA0;
+	border: 1px solid #24292e;
+	border-radius: 7px;
+	color: #3EC300;
+	font-weight: bold;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.button {
+	background-color: #337CA0;
+	border: 1px solid #24292e;
+	border-radius: 3px;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.form-actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+
+.form-actions input {
+	width: 100%;
+}
+
+.add-button {
+	background-color: #c34e0f;
+	border: 1px solid #24292e;
+	border-radius: 3px;
+	color: #337CA0;
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	width: 100%;
+}
